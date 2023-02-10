@@ -18,3 +18,10 @@ for(let i=0; i < listItems.length; i++)
     }
     else listItems[i].style.backgroundColor = "#200E6F";
 }
+
+//getElementByTagName
+let title=document.getElementsByClassName("title")
+title[1].textContent="HVALA DARKO"
+
+listItems[3].textContent="cetvrti"
+listItems[3].style.backgroundColor="red"
